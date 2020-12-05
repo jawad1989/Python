@@ -1,3 +1,4 @@
+
 first_name = " jawad"
 last_name = "saleem "
 full_name = first_name + last_name
@@ -14,7 +15,6 @@ print(f"Hello, {name.title()}!")
 
 message = f"Goodbye, {name.title()}!"
 print(message)
-
 
 # addng white spaces \t \n
 print("\t"+name)
