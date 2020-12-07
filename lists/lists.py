@@ -1,7 +1,7 @@
 # Developer: Jawad Saleem
-# Date: Dec, 12th, 2020
+# Date: Dec, 5th, 2020
 # Description: undestranding lists in python
-# Actions: insert,append, remove, del, pop, sort, sort(reversed=true), sorted(array), reverse
+# Actions: insert,append, remove, del, pop, sort, sort(reversed=true), sorted(array), reverse, len, slice list
 
 names = ["jawad", "rajab", "ahmad"]
 
@@ -70,3 +70,8 @@ print("Reversed List:", cities)
 
 # length of list
 print("Length of cities:", len(cities))
+
+
+# slice list
+print(cities[0:2])
+print(cities[:2])
