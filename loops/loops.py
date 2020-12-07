@@ -1,7 +1,7 @@
 # Developer: Jawad Saleem
 # Date: Dec, 7th, 2020
 # Description: undestranding lists in python
-# Actions: for loop, range, use range to generate list, step size(**), min, max
+# Actions: for loop, range, use range to generate list, step size(**), min, max, looping a slice
 
 # looping through a list
 names = ["jawad", "rajab", "ahmad"]
@@ -37,7 +37,9 @@ print(square)
 print(exponent)
 
 
-# for loop
+# Looping through a slice
+for exp in exponent[:3]:
+    print(exp)
 
 # min max of list
 print("min of list:", min(exponent))
