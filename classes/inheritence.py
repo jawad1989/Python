@@ -8,7 +8,7 @@ class Car:
         self.odometer_reading = 0
 
     def get_descriptive_name(self):
-        long_name = f"{self.make} / {self.mdele} / {self.year}"
+        long_name = f"{self.make} / {self.model} / {self.year}"
         return long_name
 
     def get_odometer_reading(self):
@@ -29,6 +29,11 @@ class ElectricCar(Car):
         print(f"This car has a {self.battery_size}-kWh battery")
 
 
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+
 # initiate object
 honda = Car('Honda', 'Civic', 2005)
 print(f"{honda.make} / {honda.model} / {honda.year}")
@@ -40,3 +45,9 @@ print(f"{tesla.make} / {tesla.model.title()} / {tesla.year}")
 tesla.update_odometer_reading(1000)
 print(tesla.get_odometer_reading())
 tesla.describe_battery()
+
+# isinstance
+print(isinstance(tesla, Car))
+print(isinstance(tesla, ElectricCar))
+print(isinstance(tesla, Student))
+print(isinstance(tesla, object))
