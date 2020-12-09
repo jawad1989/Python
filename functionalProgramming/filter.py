@@ -15,3 +15,15 @@ def check_odd(item):
 print(list(map(multiply_by2, my_list)))
 print(list(filter(check_odd, my_list)))
 print(my_list)
+
+
+#3 Filter the scores that pass over 50%
+scores = [73, 20, 65, 19, 76, 100, 88]
+
+
+def filter_scores(item):
+  if item > 50:
+    return item
+
+
+print(list(filter(filter_scores, scores)))
