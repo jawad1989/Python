@@ -5,7 +5,7 @@ my_list = [1, 2, 3, 4, 5]
 
 def accumulator(acc, item):
     # print(acc, item)
-    return acc * item
+    return acc + item
 
 
 print((reduce(accumulator, my_list, 1)))
@@ -17,8 +17,8 @@ my_numbers = [5, 4, 3, 2, 1]
 scores = [73, 20, 65, 19, 76, 100, 88]
 
 
-def accumulator(acc, item):
+def accumulator2(acc, item):
     return acc+item
 
 
-print(reduce(accumulator, (my_numbers + scores)))
+print(reduce(accumulator2, (my_numbers + scores)))
