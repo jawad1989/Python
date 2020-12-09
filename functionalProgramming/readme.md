@@ -1,0 +1,4 @@
+- Functional programming is all about packaging our code into separate chunks so everything is well organized
+- separting concerns, also separate data and functions
+- no idea of classes and objects, instead functions operate on well defined data structures
+- pure functions are pillars of functional programming
