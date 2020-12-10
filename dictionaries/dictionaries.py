@@ -4,18 +4,18 @@
 # # Actions: loop a dict, loop only keys,values, get in dict,
 # # sets: used to remove duplicates in values
 
-# list_python = ['a', 'b', 'c', 'a', 'a']
-# print("List in python= ", list_python)
+list_python = ['a', 'b', 'c', 'a', 'a']
+print("List in python= ", list_python)
 
-# set_python = {'a', 'b', 'c', 'a', 'a'}
-# print("Set in python= ", set_python)
+set_python = {'a', 'b', 'c', 'a', 'a'}
+print("Set in python= ", set_python)
 
-# tuple_python = ('a', 'b', 'c', 'a', 'a')
-# print("Tuples in python= ", tuple_python)
+tuple_python = ('a', 'b', 'c', 'a', 'a')
+print("Tuples in python= ", tuple_python)
 
 
-# car_1 = {'color': 'white', 'make': 'toyota'}
-# print(car_1['color'])
+car_1 = {'color': 'white', 'make': 'toyota'}
+print(car_1['color'])
 
 # car_1['model'] = "camry"
 # print(car_1)
