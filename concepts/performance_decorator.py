@@ -1,3 +1,5 @@
+# usage: to use just add @performace_decorator on top
+
 from time import time
 
 
@@ -7,8 +9,8 @@ def performance_decorator(func):
         result = func(*num)
         t2 = time()
         print(f'func took {t2-t1}ms')
-        print(result)
-        # return result
+        # print(result)
+        return result
     return wrap_func
 
 
@@ -20,15 +22,3 @@ def long_time():
 
 
 long_time()
-
-
-@performance_decorator
-def factorial(num):
-    fact = 1
-    for x in range(1, num+1):
-        fact = fact * x
-    # 3 print(fact)
-    return fact
-
-
-(factorial(50))

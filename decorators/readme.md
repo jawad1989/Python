@@ -22,3 +22,9 @@ def my_func():
       return 5
     return five
 ```
+
+# Some Uses
+
+- performance
+- logging
+- database acitivties
