@@ -1,0 +1,4 @@
+Hello World
+Write from python
+Hello Python
+Append from python
