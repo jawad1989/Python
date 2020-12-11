@@ -1,8 +1,13 @@
-filename = 'files_and_exception/dummy.txt'
+# filename = 'files_and_exception/alice.txt'
+filename = 'files_and_exception/little_women.txt'
 
-with open(filename) as file_object:
-    content = file_object.read()
+try:
+    with open(filename, encoding='utf-8') as file_object:
+        content = file_object.read()
+except FileNotFoundError as err:
+    print(f"file not found, err: {err}")
 
-words = content.split()
-words_count = len(words)
-print(f'the file: {filename} has {words_count}')
+else:
+    words = content.split()
+    words_count = len(words)
+    print(f'the file: {filename} has {words_count}')
