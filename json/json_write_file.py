@@ -23,6 +23,8 @@ my_dict = {
         'city': 'lahore',
         'age': 1}
 }
+
 filename = 'json/json_write.json'
+
 with open(filename, 'w') as file_object:
     json.dump(my_dict, file_object)
