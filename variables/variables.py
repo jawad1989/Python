@@ -8,7 +8,8 @@ print(full_name.title())
 print(full_name.upper())
 print(full_name.lower())
 
-# Using variables in Strings & using f-strings
+
+# Using variables in Strings & using f-strings (Formatted)
 name = f"{first_name} {last_name}"
 print(name)
 print(f"Hello, {name.title()}!")
