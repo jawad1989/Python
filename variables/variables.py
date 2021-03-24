@@ -6,7 +6,7 @@ full_name = first_name + last_name
 # Change Case
 print(full_name.title())
 print(full_name.upper())
-print(full_name.lower())
+print(full_name.lower()) 
 
 
 # Using variables in Strings & using f-strings (Formatted)
