@@ -19,7 +19,6 @@ print(car_1['color'])
 
 # car_1['model'] = "camry"
 # print(car_1)
-
 # del car_1['model']
 # print("deleting model in dictionary:", car_1)
 

@@ -1,7 +1,8 @@
-# variables
+#fix this code so that it prints a sorted list of all of our friends (alphabetical). Scroll to see answer
+friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
 
-first_name = "jawad"
-last_name = "saleem"
+new_friend = ['Stanley']
+friends.extend(new_friend)
+# friends.sort() 
+print(sorted(friends))
 
-full_name = f"{first_name} {last_name}"
-print(full_name.title())

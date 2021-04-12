@@ -75,7 +75,7 @@ greet_users(names[:])
 print("post:", names)
 
 
-# Arbitraru number of arguments
+# Arbitrarys number of arguments
 def make_pizze(*toppings):
     """prints all requested toppigs"""
 
@@ -111,4 +111,5 @@ def build_profile(f_name, l_name, ** user_info):
 
 
 user_profile = build_profile('jawad', 'saleem', location='austin', age=31)
+
 print(user_profile)

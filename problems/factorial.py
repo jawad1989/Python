@@ -5,5 +5,4 @@ def factorial(num):
         fact = fact * x
     return fact
 
-
 print(factorial(5))
