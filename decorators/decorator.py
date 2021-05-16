@@ -1,3 +1,4 @@
+# decorator super charge our functions
 # Decorator Pattern
 def my_decorator(func):
     def wrap_func(*x):
@@ -7,17 +8,13 @@ def my_decorator(func):
     return wrap_func
 
 # this wraps your functions like this a = my_decorator(hello)
-
-
 @my_decorator
 def hello(name, age=31):
     print(f"hello, {name}, {age}")
 
-
 hello('jawad')
+
 # my_decorator(hello)()
-
-
 # Create an @authenticated decorator that only allows the function to run is user1 has 'valid' set to True:
 user1 = {
     'name': 'Jawad',
@@ -31,10 +28,9 @@ def authenticated(fn):
             return fn(*args, **kwargs)
     return wrapper
 
-
 @authenticated
 def message_friends(user):
     print('message has been sent')
 
-
 message_friends(user1)
+

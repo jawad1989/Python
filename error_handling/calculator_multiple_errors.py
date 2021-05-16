@@ -13,4 +13,4 @@ def calc(num1, num2, op):
         return "im in else"
 
 
-print(calc(10, 's', '/'))
+print(calc(10, 's' , '/'))

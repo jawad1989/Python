@@ -1,6 +1,5 @@
 from time import time
 
-
 def performance_decorator(func):
     def wrap_func(*num):
         t1 = time()
@@ -11,16 +10,12 @@ def performance_decorator(func):
         # return result
     return wrap_func
 
-
 @performance_decorator
 def long_time():
     for i in range(10000000):
         i = i*5
     return i
-
-
 long_time()
-
 
 @performance_decorator
 def factorial(num):
@@ -29,6 +24,4 @@ def factorial(num):
         fact = fact * x
     # 3 print(fact)
     return fact
-
-
 (factorial(50))
