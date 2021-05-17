@@ -1,5 +1,8 @@
-import random
+import datetime
 
-print(random.random())
+print(datetime.time())
 
-print(random.randint(1,20))
+print(datetime.time(7,25,10))
+
+
+print(datetime.date.today())
