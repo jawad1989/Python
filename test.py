@@ -1,8 +1,5 @@
-import datetime
-
-print(datetime.time())
-
-print(datetime.time(7,25,10))
-
-
-print(datetime.date.today())
+import sys
+print("Python version")
+print (sys.version)
+print("Version info.")
+print (sys.version_info)
