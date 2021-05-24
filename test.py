@@ -1,5 +1,8 @@
-import sys
-print("Python version")
-print (sys.version)
-print("Version info.")
-print (sys.version_info)
+def abc(page_name):
+    url = page_name +'.html'
+    print(url)
+
+a = "jawad"
+b = "saleem"
+c = a + 'haniya'
+abc('test')

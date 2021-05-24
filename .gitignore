@@ -1,1 +1,11 @@
-pcc_2e-master/
+# Environments
+.env
+.venv
+env/
+webdev/venv/
+webdev/portfo/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.jawad

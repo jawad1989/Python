@@ -13,12 +13,12 @@ def performance_decorator(func):
         return result
     return wrap_func
 
+if __name__ == "__main__":
+    @performance_decorator
+    def long_time():
+        for i in range(10000000):
+            i = i*5
+        return i
 
-@performance_decorator
-def long_time():
-    for i in range(10000000):
-        i = i*5
-    return i
 
-
-long_time()
+    long_time()

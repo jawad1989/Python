@@ -32,3 +32,9 @@ print(list(filter(filter_scores, scores)))
 odd = list(filter(lambda x: x % 2 == 0, range(1, 20)))
 # odd = list(map(lambda item: item % 2 != 0, range(0, 10)))
 print(odd)
+
+
+numbers = [1,2,3,4,5,6,7]
+even_nums = list(filter(lambda n: n % 2 == 0, numbers))
+
+print(even_nums)
