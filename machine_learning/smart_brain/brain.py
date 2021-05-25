@@ -1,7 +1,7 @@
 """https://github.com/OlafenwaMoses/ImageAI/blob/master/imageai/Classification/README.md"""
 
 # from imageai.Prediction import ImagePrediction
-from imageai.Classification import CustomImageClassification
+from imageai.Classification import ImageClassification
 
 import os
 exection_path = os.getcwd()
