@@ -9,3 +9,8 @@ ENV/
 env.bak/
 venv.bak/
 .jawad
+machine_learning/smart_brain/mobilenet_v2.h5
+machine_learning/smart_brain/resnet50_imagenet_tf.2.0.h5
+machine_learning/*.csv
+machine_learning/*.joblib
+machine_learning/.ipynb_checkpoints
