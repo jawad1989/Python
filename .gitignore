@@ -12,6 +12,7 @@ venv.bak/
 machine_learning/smart_brain/mobilenet_v2.h5
 machine_learning/smart_brain/resnet50_imagenet_tf.2.0.h5
 machine_learning/housing_loan/*.csv
+machine_learning/housing_loan/loan_data.csv
 machine_learning/*.csv
 machine_learning/*.joblib
 machine_learning/.ipynb_checkpoints
