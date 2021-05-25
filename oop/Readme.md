@@ -1,11 +1,11 @@
 * Class variable
 * Instance variable
-* Methods
+* Methods  
 A method is a group of statements that performs some operations and may or may not return a result.
     * Instance methods
     * Class methods
     * Static methods
-* Method OVerloading
+* Method Overloading  
 Overloading refers to making a method perform different operations based on the nature of its arguments.
 ```
 def demo(self, a, b, c, d=5, e=None):
