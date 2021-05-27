@@ -14,7 +14,7 @@ print(list(map(lambda item: item**2, list_a)))
 
 print(list(filter(lambda item: item % 2 == 0, list_b)))
 
-print(reduce((lambda acc, item: acc+item), list_a, 1))
+print("reduce: ", reduce((lambda acc, item: acc+item), list_a, 2))
 
 # cube example
 
@@ -35,3 +35,7 @@ print("lambda cube:", lambda_cube(5))
 ages = [10, 20, 23, 23, 32, 67]
 lambda_age = list(filter(lambda item: item > 18, ages))
 print(f"There are '{len(lambda_age)}' people older than 18:", lambda_age)
+
+
+c = lambda num: "high" if num >  10 else "low"
+print("lambda hi low: ", c(20))

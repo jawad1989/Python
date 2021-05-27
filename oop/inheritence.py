@@ -1,6 +1,7 @@
 class Car:
     """Simple attempt to represent a Car"""
-
+    a = 'whattttt'
+    
     def __init__(self, make, model, year):
         self.make = make
         self.model = model
@@ -16,6 +17,9 @@ class Car:
 
     def update_odometer_reading(self, mileage):
         self.odometer_reading = mileage
+    
+    def test(self):
+        return self.make
 
 
 class ElectricCar(Car):
@@ -27,6 +31,10 @@ class ElectricCar(Car):
 
     def describe_battery(self):
         print(f"This car has a {self.battery_size}-kWh battery")
+
+    def get_year(self):
+        #  return (super().make)
+        return self.test()
 
 
 class Student:
@@ -41,6 +49,7 @@ print(f"{honda.make} / {honda.model} / {honda.year}")
 
 # initiate Electric Car
 tesla = ElectricCar('Tesla', 'model s,', 2019)
+print("YEAR: ", tesla.get_year())
 print(f"{tesla.make} / {tesla.model.title()} / {tesla.year}")
 tesla.update_odometer_reading(1000)
 print(tesla.get_odometer_reading())

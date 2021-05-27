@@ -23,9 +23,9 @@ def generator_function(num):
 
 g = generator_function(10)
 
-next(g)
-next(g)
-next(g)
-print(next(g))
-print(next(g))
-print(next(g))
+next(g) # 1
+next(g) # 2
+next(g) # 3 
+print(next(g)) # 4
+print(next(g)) # 5
+print(next(g)) # 6

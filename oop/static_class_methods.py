@@ -17,7 +17,9 @@ class User:
 
 # print(User.add_numbers(2, 3))
 user1 = User.add_numbers(10, 20)
-print(user1.name, user1.age)
+# print(user1.name, user1.age)
+print(User.sub_numbers(30,10))
+print(user1.sub_numbers(50,10))
 
 
 print(User.sub_numbers(50, 40))
