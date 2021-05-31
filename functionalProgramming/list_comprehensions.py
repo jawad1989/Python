@@ -26,3 +26,7 @@ print(num_by_2)
 # Example 4: only keep even numbers from last list
 num_list_even = [num for num in range(10) if num % 2 == 0]
 print(num_list_even)
+
+# Example 5: square
+square = [ n**2 for n in range(1,11)]
+print("square = ",square)

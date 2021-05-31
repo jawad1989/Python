@@ -9,3 +9,18 @@
 # Check output
 
 # Improve
+-----------
+
+# data loading 
+
+# verification
+
+# splitting
+
+# processing
+
+# feature engineering
+
+# model training and verification
+
+# hyperparameter tuning, and model serving
