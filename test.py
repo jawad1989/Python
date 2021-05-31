@@ -8,4 +8,4 @@ print(A)
 
 
 bisect.insort_right(A, 108)
-print(A) 
+print(A)  # right insert
